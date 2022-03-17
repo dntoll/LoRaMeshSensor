@@ -2,8 +2,8 @@ import pycom
 pycom.pybytes_on_boot(False)
 pycom.heartbeat(False)
 
-from meshlibrary.MeshFacade import MeshFacade
-from meshlibrary.BaseView import BaseView
+from LoRaMeshLibrary.MeshFacade import MeshFacade
+from LoRaMeshLibrary.BaseView import BaseView
 from dht import DHTHelper
 import time
 
