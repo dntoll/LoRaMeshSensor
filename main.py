@@ -8,7 +8,7 @@ from dht import DHTHelper
 import time
 
 view = BaseView()
-
+ 
 
 def callback(originIP, contentBytes):
         print("Received Temp: " + str(contentBytes[0]) + " from " + str(originIP))
